@@ -1,0 +1,3 @@
+"""
+Hilfsmodule für SnakeTrainer.
+"""

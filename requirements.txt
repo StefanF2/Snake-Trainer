@@ -1,0 +1,7 @@
+pgzero
+pygame
+scikit-learn
+pandas
+joblib
+pytest
+pytest-cov
