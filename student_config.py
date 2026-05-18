@@ -6,17 +6,17 @@ Hier kannst du das Aussehen und das Spielgefühl anpassen.
 
 # Spielfeld
 GRID_WIDTH = 24
-GRID_HEIGHT = 18
+GRID_HEIGHT = 24 # Erste änderung: von 18 auf 24
 GRID_SIZE = 20
 
 # Spielgeschwindigkeit
-SNAKE_SPEED = 7
+SNAKE_SPEED = 6 # Zweite änderung: von 7 auf 6
 
 # Farben
 BACKGROUND_COLOR = "black"
 GRID_COLOR = "darkslategray"
 SNAKE_COLOR = "green"
-SNAKE_HEAD_COLOR = "lime"
+SNAKE_HEAD_COLOR = "darkgreen" # Dritte änderung: von lime auf darkgreen
 FOOD_COLOR = "red"
 TEXT_COLOR = "white"
 
