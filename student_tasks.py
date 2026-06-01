@@ -19,7 +19,7 @@ def format_score(score):
     # TODO PFLICHT LEICHT:
     # Verändere den Text, wenn du möchtest.
     # Beispiel: "Punkte: 5"
-    return f"Score: {score}"
+    return f"Punktzahl: <{score}>" # Änderung 1: Von Score: auf Punktzahl:
 
 
 def format_high_score(high_score):
@@ -32,8 +32,7 @@ def format_high_score(high_score):
     """
     # TODO PFLICHT LEICHT:
     # Gib einen Text mit dem Highscore zurück.
-    return f"Highscore: {high_score}"
-
+    return f"Highscore: <{high_score}>"
 
 def get_mode_text(ai_mode):
     """
@@ -47,9 +46,9 @@ def get_mode_text(ai_mode):
     # Lies die if-Anweisung.
     # Erkläre in deiner Dokumentation, was hier passiert.
     if ai_mode:
-        return AI_MODE_TEXT
+        return AI_MODE_TEXT + "-Modus"
 
-    return HUMAN_MODE_TEXT
+    return HUMAN_MODE_TEXT + "-Modus" 
 
 
 def is_high_score(score, high_score):
