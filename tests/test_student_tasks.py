@@ -16,11 +16,11 @@ def test_format_high_score():
 
 
 def test_get_mode_text_ai():
-    assert get_mode_text(True) == AI_MODE_TEXT
+    assert get_mode_text(True) == AI_MODE_TEXT + "-Modus"
 
 
 def test_get_mode_text_human():
-    assert get_mode_text(False) == HUMAN_MODE_TEXT
+    assert get_mode_text(False) == HUMAN_MODE_TEXT + "-Modus"
 
 
 def test_is_high_score_true():

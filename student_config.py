@@ -14,7 +14,7 @@ SNAKE_SPEED = 6 # Zweite änderung: von 7 auf 6
 
 # Farben
 BACKGROUND_COLOR = "black"
-GRID_COLOR = "darkslategray"
+GRID_COLOR = "darkgray"
 SNAKE_COLOR = "green"
 SNAKE_HEAD_COLOR = "darkgreen" # Dritte änderung: von lime auf darkgreen
 FOOD_COLOR = "red"
@@ -24,7 +24,7 @@ TEXT_COLOR = "white"
 GAME_TITLE = "SnakeTrainer"
 HUMAN_MODE_TEXT = "Modus: Mensch"
 AI_MODE_TEXT = "Modus: KI"
-GAME_OVER_TEXT = "Game Over - Drücke R für Neustart"
+GAME_OVER_TEXT = " Du hast verloren! - Drücke R für Neustart"
 
 # KI
 USE_AI_BY_DEFAULT = False
