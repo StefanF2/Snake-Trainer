@@ -265,8 +265,12 @@ def update(dt):
         return
 
     move_timer += dt
+    current_speed = SNAKE_SPEED
 
-    if move_timer >= 1 / SNAKE_SPEED:
+    if keyboard.space:
+        current_speed = 12
+
+    if move_timer >= 1 / current_speed:
         move_timer = 0
         move_one_step()
 
